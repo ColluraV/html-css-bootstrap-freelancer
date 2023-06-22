@@ -14,6 +14,11 @@
     background-color: var(--cyan);
 }
 
+.my-2 a{
+    text-decoration: none;
+    color: white;
+}
+
 .avatar{
     max-width: 300px;
     margin: 1rem auto;
@@ -35,14 +40,6 @@
     border:2px solid white;
 }
 
-.contact .col div{
-    border-bottom: 2px solid rgb(190, 189, 189);
-    padding: 0.4rem 0;
-}
-
-.mex{
-    height: 100px;
-}
 .send{
     margin: 1rem 0;
 }
@@ -51,9 +48,17 @@
     background-color: var(--sotto);
     color: white;
 }
-textarea{
-    width: 100%;
-}
+
 .copy{
     background-color: var(--copy);
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: rgb(73, 73, 73);
+    border-color:  rgb(73, 73, 73);
+}
+
+h2{
+    margin: 2rem 0;
 }

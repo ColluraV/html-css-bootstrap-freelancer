@@ -15,87 +15,105 @@
 
 <body>
     <nav>
-        <div class="container-fluid text-center p-3 gy-3">
-            <div class="row">
-                <div class="col"> START BOOSTRAP </div>
-                <div class="col"></div>
+        <nav class="bg-dark ">
+            <div class="container-fluid d-flex">
+                <h4 class="text-start text-white my-2 ">START BOOTSRAP </h4>
+              <button class="btn btn-outline-light d-md-none ms-auto">
+                <i class="fas fa-bars"></i>
+              </button>
+      
+              <ul class="list-unstyled my-2 d-none d-md-flex ms-auto">
+                <li><a href="#" class="px-2 py-3 ">Portfolio</a></li>
+                <li><a href="#" class="px-2 py-3 ">About</a></li>
+                <li><a href="#" class="px-2 py-3 ">Contact</a></li>
+              </ul>
             </div>
-        </div>
-    </nav>
+          </nav>
     <section class="jumbo">
         <div class="container text-center  p-3 gy-3">
             <div class="row">
                 <div class="col">
-                    <div class="box">
-                        <div class="avatar"><img src="img/avatar.svg" alt=""></div>
-                        <div>START BOOSTRAP</div>
-                        <div></div>
-                        <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
-                    </div>
+                    <div class="avatar"><img src="img/avatar.svg" alt=""></div>
+                    <div>START BOOSTRAP</div>
+                    <div></div>
+                    <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="portfolio  p-3 gy-3">
+    <section class="portfolio  py-4">
         <div class="container text-center">
             <h2> PORTFOLIO </h2>
-            <div class="row p-3 gy-3">
+            <div class="row gy-3">
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/cabin.png" alt=""></div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/cabin.png" alt=""></div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/cabin.png" alt=""></div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/cabin.png" alt=""></div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/cabin.png" alt=""></div>
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/cabin.png" alt=""></div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/cake.png" alt=""></div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/circus.png" alt=""></div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/game.png" alt=""></div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/safe.png" alt=""></div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4"><img class="rounded-3" src="img/submarine.png" alt=""></div>
             </div>
         </div>
     </section>
-    <section class="about text-center  p-4 gy-3">
+    <section class="about text-center p-4 gy-3">
         <h2> ABOUT </h2>
         <div></div>
-        <div class="container text-center">
-            <div class="row">
-                <div class=" col-sm-12 col-lg-6 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quae aliquam corrupti, quibusdam autem cupiditate nemo ullam dolor, adipisci est sint veritatis necessitatibus sit inventore beatae voluptates molestias voluptate obcaecati.</div>
-                <div class=" col-sm-12 col-lg-6 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, id veritatis ipsam saepe doloribus ipsum, necessitatibus, laborum consequuntur magni commodi accusantium deleniti. Cupiditate at possimus molestias aut? Mollitia, in est!</div>
+        <div class="container">
+            <div class="row  justify-content-center  gy-3">
+                <div class=" col-sm-10 col-lg-6 text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas quae aliquam corrupti, quibusdam autem cupiditate nemo ullam dolor, adipisci est sint veritatis necessitatibus sit inventore beatae voluptates molestias voluptate obcaecati.</div>
+                <div class=" col-sm-10 col-lg-6 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, id veritatis ipsam saepe doloribus ipsum, necessitatibus, laborum consequuntur magni commodi accusantium deleniti. Cupiditate at possimus molestias aut? Mollitia, in est!</div>
             </div>
-            <button class="rounded-3"><i class="fa-solid fa-download  " style="color: #ffffff;"></i> Download </button>
+            <button class="rounded-3"><i class="fa-solid fa-download  "></i> Download </button>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact py-4">
         <div class="container">
             <div class="text-center p-4 gy-4">
                 <h2> CONTACT ME</h2>
                 <div></div>
             </div>
 
-            <div class="row">
-                <div class="col">
-                    <div> Name </div>
-                    <div>Email Adress</div>
-                    <div>Phone Number</div>
-                    <textarea id="message" name="message">Message</textarea>
+            <form class="row justify-content-center ">
+                <div class="col-10">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name">
+                        <label for="floatingInput" >Name </label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput"> Email address </label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="Your phone number">
+                        <label for="floatingInput"> Phone Number </label>
+                      </div>
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2"> Message </label>
+                      </div>
+                      <button class="send rounded-3"> Send </button>
                 </div>
-            </div>                
-            <button class="send rounded-3"> Send </button>
+            </form>                
+
         </div>
     </section>
     <section class="sotto text-center">
-        <div class="container  p-4 gy-4">
+        <div class="container py-4">
             <div class="row ">
                 <div class="col-sm-12 col-md-4">
                     <h4>LOCATION</h4>
                     <div>2215 Jhon Daniel Drive Clark, Mo 54243</div>
                 </div>
-                <div class="col-sm-12 col-md-4  g-1">
+                <div class="col-sm-12 col-md-4 gy-2">
                     <h4>AROUND THE WEB</h4>
                     <div>2215 Jhon Daniel Drive Clark, Mo 54243</div>
-                    <div class="row  g-1 my-4">
+                    <div class="row  gy-2 my-4">
                         <a href="" class="col-3 p-1"><i class="tondo fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
                         <a href="" class="col-3 p-1"><i class="tondo fa-brands fa-google-plus-g" style="color: #ffffff;"></i></a>
                         <a href="" class="col-3 p-1"><i class="tondo fa-brands fa-twitter" style="color: #ffffff;"></i></a>
                         <a href="" class="col-3 p-1"><i class="tondo fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 ">
+                <div class="gy-2 col-sm-12 col-md-4 ">
                     <h4>ABOUT FREELANCER</h4>
                     <div>Freelance is a free to use, open source Bootstrap theme created by <a href=""> Start Bootstramp</a></div>
                 </div>
